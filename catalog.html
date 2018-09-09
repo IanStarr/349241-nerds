@@ -5,7 +5,7 @@
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body class="inner-page">
     <header class="wrapper-header">
@@ -51,7 +51,7 @@
         <div class="range-filter">
           <div class="range-controls">
             <div class="scale">
-              <div class="bar" style="margin-left: 20%; width: 30%"></div>
+              <div class="bar"></div>
             </div>
             <div class="toggle toggle-min"></div>
             <div class="toggle toggle-max"></div>
@@ -62,9 +62,7 @@
           </div>
         </div>
       </fieldset>
-              <div>
                 <h2 class="form-title-switch">СЕТКА:</h2>
-              </div>
               <ul class="form-filter-wrapper-radio">
                 <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" id="adaptive" value="adaptive" checked>
@@ -79,9 +77,7 @@
                 <label for="rubber">Резиновая</label>
                 </li>
               </ul>
-              <div class="">
                 <h2 class="form-title-switch">ОСОБЕННОСТИ:</h2>
-              </div>
                 <ul class="form-filter-wrapper-check">
                   <li class="filter-option">
                     <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="slider" checked>
@@ -145,8 +141,10 @@
                 <img class="design-template-img" src="img/img-sedona.jpg" alt="Sedona информационный сайт для туристов" width="360" height="576">
               </div>
               <div class="template template-sedona">
-                <h3 class="template-title">SEDONA</h3>
-                <p>Информационный сайт <br> для туристов</p>
+                <a href="#" class="template-title">SEDONA</a>
+                <div class="text-wrap">
+                  <p>Информационный сайт для туристов</p>
+                </div>
                 <div class="btn-pay-wrapper">
                   <a class="btn-pay btn-card" href="#">9 990 руб.</a>
                 </div>
@@ -158,8 +156,10 @@
                   <img class="design-template-img" src="img/img-pink.jpg" alt="Pink продуктовый лендинг приложения для iOS и Android" width="360" height="576">
                 </div>
                 <div class="template template-pink">
-                  <h3 class="template-title">PINK</h3>
-                  <p>Продуктовый лендинг приложений <br> для iOS и Android</p>
+                  <a href="#" class="template-title">PINK</a>
+                  <div class="text-wrap">
+                    <p>Продуктовый лендинг приложений для iOS и Android</p>
+                  </div>
                   <div class="btn-pay-wrapper">
                   <a class="btn-pay btn-card" href="#">9 990 руб.</a>
                   </div>
@@ -171,8 +171,10 @@
                   <img class="design-template-img" src="img/img-barbershop.jpg" alt="Barbershop салон красоты для мужчин" width="360" height="576">
                 </div>
                 <div class="template template-barbershop">
-                  <h3 class="template-title">BARBERSHOP</h3>
-                  <p>Салон красоты. <br> Для мужчин, да.</p>
+                  <a href="#" class="template-title">BARBERSHOP</a>
+                  <div class="text-wrap">
+                    <p>Салон красоты.<br> Для мужчин, да.</p>
+                  </div>
                   <div class="btn-pay-wrapper">
                   <a class="btn-pay btn-card" href="#">9 990 руб.</a>
                 </div>
@@ -184,8 +186,10 @@
                   <img class="design-template-img" src="img/img-mishka.jpg" alt="Mishka интернет-магазин вязаных игрушек" width="360" height="576">
                 </div>
                 <div class="template template-mishka">
-                  <h3 class="template-title">MISHKA</h3>
-                  <p>Интернет-магазин <br> вязаных игрушек</p>
+                  <a href="#" class="template-title">MISHKA</a>
+                  <div class="text-wrap">
+                    <p>Интернет-магазин<br> вязаных игрушек</p>
+                  </div>
                 <div class="btn-pay-wrapper">
                   <a class="btn-pay btn-card" href="#">9 990 руб.</a>
                 </div>
@@ -197,8 +201,10 @@
               <img class="design-template-img" src="img/img-aplus.jpg" alt="A Plus лендинг курсов повышения квалификации" width="360" height="576">
             </div>
             <div class="template template-aplus">
-              <h3 class="template-title">A PLUS</h3>
-              <p>Лендинг курсов повышения <br> квалификации</p>
+              <a href="#" class="template-title">A PLUS</a>
+              <div class="text-wrap">
+                <p>Лендинг курсов повышения квалификации</p>
+              </div>
               <div class="btn-pay-wrapper">
                 <a class="btn-pay btn-card" href="#">9 990 руб.</a>
               </div>
@@ -210,8 +216,10 @@
                   <img class="design-template-img" src="img/img-kvast.jpg" alt="Кваст промо-сайт призводителя крафтового кваса" width="360" height="576">
                 </div>
                 <div class="template template-kvast">
-                  <h3 class="template-title">КВАСТ</h3>
-                  <p>Промо-сайт призводителя <br> крафтового кваса</p>
+                  <a href="#" class="template-title">КВАСТ</a>
+                  <div class="text-wrap">
+                    <p>Промо-сайт призводителя крафтового кваса</p>
+                  </div>
                   <div class="btn-pay-wrapper">
                     <a class="btn-pay btn-card" href="#">9 990 руб.</a>
                   </div>
@@ -238,7 +246,7 @@
             ул. Б. Конюшенная, д. 19/8</p>
           <p>тел. +7 (812) 275-75-75</p>
           <div class="write write-us-btn">
-            <a class="write-us" href="#">НАПИШИТЕ НАМ</a>
+            <a class="write-us" href="feedbackform.html">НАПИШИТЕ НАМ</a>
           </div>
         </div>
       </div>
@@ -288,6 +296,6 @@
                    <button class="form-button" type="submit">Отправить</button>
                  </form>
           </section>
-          <script src="js/script.js"></script>
+          <script src="js/script.min.js"></script>
          </body>
        </html>
